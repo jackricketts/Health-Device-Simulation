@@ -2,24 +2,42 @@
 This is a program that simulates the use of the RaDoTech health device. (NOT AFFILIATED WITH RADOTECH)
 
 SOURCE FILES:
+
 'battery.h' - the header file for the Battery class.
+
 'battery.cpp' - the source code file for the Battery class.
+
 'control.h' - the header file for the Control class.
+
 'control.cpp' - the source code file for the Control class.
+
 'mainwindow.h' - the header file for the MainWindow class.
+
 'mainwindow.cpp' - the source code file for the MainWindow class.
+
 'processor.h' - the header file for the Processor class.
+
 'processor.cpp' - the source code file for the Processor class.
+
 'profile.h' - the header file for the Profile class.
+
 'profile.cpp' - the source code file for the Profile class.
+
 'records.h' - the header file for the Records class.
+
 'records.cpp' - the source code file for the Records class.
+
 'scanresult.h' - the header file for the ScanResult class.
+
 'scanresult.cpp' - the source code file for the ScanResult class.
+
 'sensor.h' - the header file for the Sensor class.
+
 'sensor.cpp' - the source code file for the Sensor class.
 
+
 OTHER FILES/DIRECTORIES:
+
 /Forms - a directory which contains the 'mainwindow.ui' file. This folder will only appear in Qt Creator
 
 /Resources - a directory which contains a directory '/images' with all
