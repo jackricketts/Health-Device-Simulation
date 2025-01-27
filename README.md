@@ -21,8 +21,10 @@ SOURCE FILES:
 
 OTHER FILES/DIRECTORIES:
 /Forms - a directory which contains the 'mainwindow.ui' file. This folder will only appear in Qt Creator
-/Resources - a directory which contains a directory '/images' with all. This folder will only appear in Qt Creator.
-required images held within.
+
+/Resources - a directory which contains a directory '/images' with all
+required images held within. This folder will only appear in Qt Creator.
+
 README.md - the documentation file that you are currently reading.
 
 HOW TO RUN PROGRAM:
