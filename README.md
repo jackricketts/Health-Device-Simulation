@@ -4,7 +4,7 @@ This is a program that simulates the use of the RaDoTech health device. (NOT AFF
 HOW TO RUN PROGRAM:
 1. Ensure that all source files exist, as well as /Forms and /Resources contain the
 required files as detailed above.
-2. Open the 'team28comp3004.pro' file in QT Creator.
+2. Open the 'healthsim.pro' file in QT Creator.
 3. Press the 'run' button.
 
 HOW TO USE THE PROGRAM:
