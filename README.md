@@ -1,6 +1,21 @@
 # Health-Device-Simulation
 This is a program that simulates the use of the RaDoTech health device. (NOT AFFILIATED WITH RADOTECH)
 
+HOW TO RUN PROGRAM:
+1. Ensure that all source files exist, as well as /Forms and /Resources contain the
+required files as detailed above.
+2. Open the 'team28comp3004.pro' file in QT Creator.
+3. Press the 'run' button.
+
+HOW TO USE THE PROGRAM:
+1. Create and modify/delete profiles as required, using the main screen within the UI.
+2. Submit scans by pressing 'new scan' then filling out the simulated sensor values as required.
+3. Submit the scan.
+4. View scan results by selecting a profile, then clicking on the result in the results dropdown pane.
+5. Battery charging will be required after submitting multiple scans, use the 'Charge Battery' button
+on any screen to modify the battery percentage. Scans cannot be completed if the battery charge is
+insufficient. Each scan currently expends 5%.
+
 SOURCE FILES:
 
 'battery.h' - the header file for the Battery class.
@@ -45,20 +60,6 @@ required images held within. This folder will only appear in Qt Creator.
 
 README.md - the documentation file that you are currently reading.
 
-HOW TO RUN PROGRAM:
-1. Ensure that all source files exist, as well as /Forms and /Resources contain the
-required files as detailed above.
-2. Open the 'team28comp3004.pro' file in QT Creator.
-3. Press the 'run' button.
-
-HOW TO USE THE PROGRAM:
-1. Create and modify/delete profiles as required, using the main screen within the UI.
-2. Submit scans by pressing 'new scan' then filling out the simulated sensor values as required.
-3. Submit the scan.
-4. View scan results by selecting a profile, then clicking on the result in the results dropdown pane.
-5. Battery charging will be required after submitting multiple scans, use the 'Charge Battery' button
-on any screen to modify the battery percentage. Scans cannot be completed if the battery charge is
-insufficient. Each scan currently expends 5%.
-
 Made by Hakan Khan, Ben Granger, and Jack Ricketts (NOT AFFILIATED WITH RADOTECH, THIS IS JUST A PROJECT BASED ON IT)
+
 All drawings made by Hakan Khan
