@@ -110,7 +110,7 @@ void MainWindow::make_profile_dropdown(){
         if(p != NULL){
             num_list_elements++;
             index_to_profile[num_list_elements] = p;
-            ui->switch_profile_box->addItem("Profile " + QString::number(num_list_elements) + ": " + p->get_first_name());
+            ui->switch_profile_box->addItem("Profile " + QString::number(num_list_elements) + ": " + *(p->get_first_name()));
             continue;
         }
     }
